@@ -1,0 +1,441 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* GERAL */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+background-color: #f4fff4;
+}
+
+/* TOPO */
+
+header{
+background-color: #1b5e20;
+
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 20px 50px;
+
+
+}
+
+header h1{
+color: white;
+
+
+font-size: 42px;
+
+
+}
+
+/* MENU */
+
+nav{
+display: flex;
+
+
+gap: 30px;
+
+
+}
+
+nav a{
+color: white;
+
+text-decoration: none;
+
+font-size: 18px;
+
+font-weight: 600;
+
+transition: 0.3s;
+
+
+}
+
+nav a:hover
+
+/* INÍCIO */
+
+.inicio{
+height: 90vh;
+
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+text-align: center;
+
+color: white;
+
+padding: 20px;
+
+background:
+linear-gradient(
+    rgba(27,94,32,0.65),
+    rgba(27,94,32,0.65)
+),
+url("campo.jpg");
+
+background-size: cover;
+
+background-position: center;
+
+
+}
+
+.inicio h2{
+font-size: 70px;
+
+
+max-width: 1000px;
+
+margin-bottom: 30px;
+
+text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+
+
+}
+
+.inicio p{
+font-size: 28px;
+
+
+max-width: 850px;
+
+margin-bottom: 35px;
+
+text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+
+
+}
+
+/* BOTÃO */
+
+button{
+background-color: white;
+
+
+color: #1b5e20;
+
+border: none;
+
+padding: 16px 35px;
+
+border-radius: 40px;
+
+font-size: 18px;
+
+font-weight: bold;
+
+cursor: pointer;
+
+transition: 0.3s;
+
+
+}
+
+button:hover{
+transform: scale(1.05);
+
+background-color: #e8f5e9;
+
+
+}
+
+/* PROBLEMA E MATEMÁTICA */
+
+.problema,
+.matematica{
+padding: 100px 50px;
+
+
+text-align: center;
+
+
+}
+
+.problema h2,
+.matematica h2{
+font-size: 42px;
+
+
+color: #1b5e20;
+
+margin-bottom: 40px;
+
+
+}
+
+/* CARD DE TEXTO */
+
+.card-texto{
+background-color: white;
+
+
+max-width: 900px;
+
+margin: auto;
+
+padding: 40px;
+
+border-radius: 20px;
+
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+
+}
+
+.card-texto p{
+font-size: 20px;
+
+
+color: #444;
+
+line-height: 1.8;
+
+margin-bottom: 20px;
+
+
+}
+
+/* SOLUÇÕES */
+
+.solucoes{
+background-color: #e8f5e9;
+
+
+padding: 100px 50px;
+
+text-align: center;
+
+
+}
+
+.solucoes h2{
+font-size: 42px;
+
+
+color: #1b5e20;
+
+margin-bottom: 50px;
+
+
+}
+
+/* TECNOLOGIAS */
+
+.tecnologias{
+padding: 100px 50px;
+
+
+text-align: center;
+
+background-color: #f4fff4;
+
+
+}
+
+.tecnologias h2{
+font-size: 42px;
+
+
+color: #1b5e20;
+
+margin-bottom: 50px;
+
+
+}
+
+/* CARDS */
+
+.cards{
+display: flex;
+
+
+justify-content: center;
+
+gap: 30px;
+
+flex-wrap: wrap;
+
+
+}
+
+.card{
+background-color: white;
+
+
+width: 320px;
+
+padding: 35px;
+
+border-radius: 20px;
+
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+transition: 0.3s;
+
+
+}
+
+.card:hover{
+transform: translateY(-10px);
+}
+
+.card h3{
+color: #2e7d32;
+
+
+margin-bottom: 20px;
+
+font-size: 24px;
+
+
+}
+
+.card p{
+color: #555;
+
+
+line-height: 1.7;
+
+
+}
+
+/* ESTATÍSTICAS */
+
+.estatisticas{
+background: linear-gradient(
+to right,
+#2e7d32,
+#43a047
+);
+
+
+color: white;
+
+padding: 90px 40px;
+
+display: flex;
+
+justify-content: center;
+
+gap: 80px;
+
+flex-wrap: wrap;
+
+text-align: center;
+
+
+}
+
+.numero h2{
+font-size: 60px;
+
+
+margin-bottom: 15px;
+
+
+}
+
+.numero p{
+font-size: 18px;
+
+
+max-width: 220px;
+
+line-height: 1.6;
+
+
+}
+
+/* RODAPÉ */
+
+footer{
+background-color: #1b5e20;
+
+
+color: white;
+
+text-align: center;
+
+padding: 50px 20px;
+
+
+}
+
+footer h2{
+font-size: 35px;
+
+
+margin-bottom: 20px;
+
+
+}
+
+footer p{
+font-size: 18px;
+
+
+margin: 10px 0;
+
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px){
+
+
+header{
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+nav{
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.inicio h2{
+    font-size: 45px;
+}
+
+.inicio p{
+    font-size: 20px;
+}
+
+.problema h2,
+.matematica h2,
+.solucoes h2,
+.tecnologias h2{
+    font-size: 32px;
+}
+
+
+}
+
